@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipojo>
+	<component immediate="true" classname="fr.imag.adele.cadse.si.platformcmd.PlatformCmdImpl" 
+	factory="fr.imag.adele.cadse.si.platformcmd.PlatformCmdImpl" architecture="true">
+		<callback transition="validate" method="start"/>
+		<provides specification="fr.imag.adele.cadse.as.platformide.IPlatformIDE"/>
+	</component>
+	<instance component="fr.imag.adele.cadse.si.platformcmd.PlatformCmdImpl" 
+		name="fr.imag.adele.cadse.si.platformcmd.instance"/>
+</ipojo>
